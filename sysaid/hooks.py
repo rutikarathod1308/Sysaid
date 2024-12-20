@@ -144,6 +144,11 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
+doc_events = {
+    "Customer": {
+        "before_naming": "sysaid.public.py.customer_naming.custom_before_naming"
+    }
+}
 
 # Scheduled Tasks
 # ---------------
@@ -242,3 +247,12 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+     {"dt":"Custom Field","filters":[
+        [
+            "module","in",[
+               "Nextfood"
+            ],
+        ]
+    ]},
+]
