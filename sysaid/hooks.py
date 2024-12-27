@@ -147,6 +147,9 @@ app_license = "mit"
 doc_events = {
     "Customer": {
         "before_naming": "sysaid.public.py.customer_naming.custom_before_naming"
+    },
+    "Supplier": {
+        "before_naming": "sysaid.public.py.suppplier_naming.custom_before_naming"
     }
 }
 
@@ -249,6 +252,13 @@ doc_events = {
 
 fixtures = [
      {"dt":"Custom Field","filters":[
+        [
+            "module","in",[
+               "Nextfood"
+            ],
+        ]
+    ]},
+     {"dt":"Property Setter","filters":[
         [
             "module","in",[
                "Nextfood"
