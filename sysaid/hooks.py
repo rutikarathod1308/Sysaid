@@ -254,14 +254,14 @@ fixtures = [
      {"dt":"Custom Field","filters":[
         [
             "module","in",[
-               "Nextfood"
+               "Sysaid"
             ],
         ]
     ]},
       {"dt":"Property Setter","filters":[
         [
             "module","in",[
-               "Nextfood"
+               "Sysaid"
             ],
         ]
     ]}
