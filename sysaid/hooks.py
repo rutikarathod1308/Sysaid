@@ -258,11 +258,11 @@ fixtures = [
             ],
         ]
     ]},
-     {"dt":"Property Setter","filters":[
+      {"dt":"Property Setter","filters":[
         [
             "module","in",[
                "Nextfood"
             ],
         ]
-    ]},
+    ]}
 ]
