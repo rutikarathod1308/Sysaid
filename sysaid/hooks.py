@@ -150,6 +150,9 @@ doc_events = {
     },
     "Supplier": {
         "before_naming": "sysaid.public.py.suppplier_naming.custom_before_naming"
+    },
+    "Item": {
+        "before_naming": "sysaid.public.py.item_naming.item_before_naming"
     }
 }
 
